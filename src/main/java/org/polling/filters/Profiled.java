@@ -10,5 +10,4 @@ import java.lang.annotation.Target;
 @NameBinding
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE, ElementType.METHOD})
-public @interface Profiled {
-}
+public @interface Profiled { }

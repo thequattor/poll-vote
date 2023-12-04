@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cda2a9b5-e413-4d49-b685-95d1d9b2dd4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/IPTPollingDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/PollingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/WebApplicationExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/WebApplicationExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/controller/AlternativeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/controller/AlternativeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/controller/PollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/controller/PollController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/controller/VoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/controller/VoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/dynamicfeatures/SelfLinkingDynamicFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/dynamicfeatures/SelfLinkingDynamicFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/Alternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/entity/Alternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/Poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/entity/Poll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/PollStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/entity/PollStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/Polling Entity Diagram Old.jpa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/Polling Entity Diagram.jpa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/entity/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/entity/Vote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/filters/Logged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/filters/Logged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/filters/LoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/filters/LoggingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/filters/Profiled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/filters/Profiled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/filters/ProfilerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/filters/ProfilerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/interceptors/AddSelfLinkInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/interceptors/AddSelfLinkInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/interceptors/SelfLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/interceptors/SelfLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/jpacontroller/exceptions/IllegalOrphanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/jpacontroller/exceptions/IllegalOrphanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/jpacontroller/exceptions/NonexistentEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/jpacontroller/exceptions/NonexistentEntityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/jpacontroller/exceptions/PreexistingEntityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/jpacontroller/exceptions/PreexistingEntityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/jpacontroller/exceptions/RollbackFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/jpacontroller/exceptions/RollbackFailureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/AlternativeRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/AlternativeRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/LinkMapAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/LinkMapAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/LinkRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/LinkRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/LinksRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/LinksRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/PollRepresentationCustomLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/PollRepresentationCustomLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/PollRepresentationDocumentLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/PollRepresentationDocumentLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/PollRepresentationHeaderLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/PollRepresentationHeaderLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/representations/PollsRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/representations/PollsRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/resources/AlternativesResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/resources/AlternativesResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/resources/JAXBContextResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/resources/JAXBContextResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/resources/PollsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/resources/PollsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/resources/VotesResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/resources/VotesResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iproduct/polling/resources/utils/LinkRelations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/polling/resources/utils/LinkRelations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/liberty/config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/liberty/config/server.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Z4Z9hr2EOIn2eCoOwVXZI7QZb5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="polling [liberty:dev]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="liberty:dev" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cda2a9b5-e413-4d49-b685-95d1d9b2dd4c" name="Changes" comment="" />
+      <created>1701683170809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701683170809</updated>
+      <workItem from="1701683180879" duration="391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

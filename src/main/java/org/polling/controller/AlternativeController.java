@@ -27,8 +27,7 @@ public class AlternativeController implements Serializable {
     public AlternativeController() {
     }
 
-    public void create(Long pollId, Alternative alternative)
-            throws NonexistentEntityException, RollbackFailureException, Exception {
+    public void create(Long pollId, Alternative alternative) throws NonexistentEntityException, RollbackFailureException, Exception {
         alternative.setId(null);
         if (alternative.getVotes() == null) {
             alternative.setVotes(new ArrayList<Vote>());
@@ -36,8 +35,7 @@ public class AlternativeController implements Serializable {
 
         Poll poll = em.find(Poll.class, pollId);
         if (poll == null) {
-            throw new NonexistentEntityException("Poll with Id = "
-                    + pollId + " does not exist");
+            throw new NonexistentEntityException("Poll with Id = " + pollId + " does not exist");
         }
         alternative.setPoll(poll);
         

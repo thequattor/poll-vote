@@ -1,6 +1,5 @@
 package org.polling.resources;
 
-
 import jakarta.ws.rs.ext.ContextResolver;
 import jakarta.ws.rs.ext.Provider;
 import jakarta.xml.bind.JAXBContext;
@@ -29,6 +28,7 @@ public class JAXBContextResolver implements ContextResolver<JAXBContext> {
 				return context;
 			}
 		}
+
 		return null;
 	}
 }

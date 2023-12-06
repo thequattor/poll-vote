@@ -7,6 +7,8 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.io.Serializable;
+import java.time.Instant;
+import java.time.temporal.TemporalAmount;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -49,13 +51,13 @@ public class Poll implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     @Basic(optional = false)
     @NotNull
-    private Date start;
+    private Date start = Date.from(Instant.now());
 
     @Column(name = "poll_end", unique = false, updatable = true, insertable = true, nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
     @Basic(optional = false)
     @NotNull
-    private Date end;
+    private Date end = Date.from(Instant.now().plusSeconds(60 * 60 * 24));
 
     @OneToMany(cascade = {CascadeType.ALL}, targetEntity = Alternative.class, mappedBy = "poll",
         fetch = EAGER )

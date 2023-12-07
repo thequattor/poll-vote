@@ -1,3 +1,3 @@
-# polling
+# Poll & Vote
 
-Poll/vote REST API application
+Poll/Vote REST API application.
